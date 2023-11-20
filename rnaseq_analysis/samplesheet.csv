@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,strandedness
+K2,s3://zb4171/kazoo/data/K2/SRR7961196_GSM3415755_K_2_Homo_sapiens_RNA-Seq.fastq.gz,,auto
