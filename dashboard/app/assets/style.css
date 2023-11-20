@@ -1,0 +1,15 @@
+.card {
+    border-radius: 1px;
+    border-style: none;
+    margin: 2% 2%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 50px -20px, rgba(0, 0, 0, 0.3) 0px 10px 20px -10px;
+}
+
+.sidebar {
+    border-radius: 1px;
+    border-style: none;
+    margin: 2% 0%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 50px -20px, rgba(0, 0, 0, 0.3) 0px 10px 20px -10px;
+}
