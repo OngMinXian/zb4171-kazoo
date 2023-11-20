@@ -1,8 +1,0 @@
-{
-    "input": "samplesheet.csv",
-    "outdir": "results",
-    "contrasts": "contrast.csv",
-    "matrix": "cancer_counts.tsv",
-    "shinyngs_build_app": false
-}
-
