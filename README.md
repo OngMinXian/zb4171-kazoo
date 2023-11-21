@@ -24,7 +24,7 @@ The Home page allows users to upload a samplesheet to initate RNA-seq analysis r
 The Patient Metadata page provides clinical information about the samples that have been analyzed. This is done through data plots that summarizes the data and a data table that allows users to select the clinical information to display.
 
 ##### MultiQC Report page
-![Screenshot](assets/multqic.PNG)
+![Screenshot](assets/multiqc.PNG)
 The MultiQC Report page provides a data table on every metric in the MultiQC report produced by the RNA-seq analysis. Users can select which metrics to display and also plot a histogram to look at the distribution of the metrics.
 
 ##### DESeq page
