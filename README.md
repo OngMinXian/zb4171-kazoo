@@ -16,23 +16,23 @@ python dashboard/app/app.py
 ```
 
 ##### Home page
-![Screenshot](assets/ZB4171_cloud_architecture.png)
+![Screenshot](assets/homepage.PNG)
 The Home page allows users to upload a samplesheet to initate RNA-seq analysis runs.
 
 ##### Patient Metadata page
-![Screenshot](assets/patient1.png)
+![Screenshot](assets/patient1.PNG)
 The Patient Metadata page provides clinical information about the samples that have been analyzed. This is done through data plots that summarizes the data and a data table that allows users to select the clinical information to display.
 
 ##### MultiQC Report page
-![Screenshot](assets/multqic.png)
+![Screenshot](assets/multqic.PNG)
 The MultiQC Report page provides a data table on every metric in the MultiQC report produced by the RNA-seq analysis. Users can select which metrics to display and also plot a histogram to look at the distribution of the metrics.
 
 ##### DESeq page
-![Screenshot](assets/deseq.png)
+![Screenshot](assets/deseq.PNG)
 The DESeq page presents DESeq analysis results. MA and volcano plots are presented, along with a data table showcasing the significantly up/down regulated genes. GO enrichment analysis was also carried out to generate hypothesis about underlying biological phenomena.
 
 ##### Machine Learning page
-![Screenshot](assets/ml.png)
+![Screenshot](assets/ml.PNG)
 The Machine Learning page allows users to make predictions using the XGBoost model on analyzed or uploaded data. 
 
 ___
