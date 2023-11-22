@@ -2,6 +2,7 @@ import boto3
 import csv
 import sys
 
+# Access S3 to pull out all the file paths for a given sample ID 
 def list_files_in_s3_bucket(prefix):
     s3_client = boto3.client('s3')
     objects = s3_client.list_objects_v2(Bucket="zb4171", Prefix=prefix)
@@ -17,6 +18,7 @@ def list_files_in_s3_bucket(prefix):
     
     return file_paths
 
+# Extract file path - identify R1 and R2 fastq files
 def extract_files_with_keywords(file_paths):
     file1, file2 = None, None
 
@@ -28,6 +30,7 @@ def extract_files_with_keywords(file_paths):
     
     return file1, file2
 
+# Create samplesheet.csv 
 def create_csv(sample, file1, file2):
     with open("samplesheet.csv", mode='w') as file:
         writer = csv.writer(file)
