@@ -18,12 +18,5 @@
     "salmon_index": "s3://zb4171/kazoo/indexes/salmon/",
     "transcript_fasta" : "s3://zb4171/kazoo/reference/genome.transcripts.fa",
 
-    "skip_bigwig": true,
-    "skip_stringtie": true,
-    "skip_preseq": true,
-    "skip_dupradar": true,
-    "skip_qualimap": true,
-    "skip_rseqc": true
-
 }
 
