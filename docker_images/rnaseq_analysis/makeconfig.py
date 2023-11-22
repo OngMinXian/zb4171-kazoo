@@ -1,5 +1,6 @@
 import sys
 
+# To replace the placeholder in the config file with the actual sample ID
 def generate_config_file(template_path, sample_id):
     with open(template_path, 'r') as f:
         template = f.read()
