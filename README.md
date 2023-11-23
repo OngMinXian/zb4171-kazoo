@@ -37,4 +37,4 @@ The Machine Learning page allows users to make predictions using the XGBoost mod
 
 ___
 ### Acknowledgements
-This project was done during AY22/23 Sem1 ZB4171 by Matthias Lim, Chua Yusong and Ong Min Xian under the guidance of Professor Greg Tucker-Kellogg.
+This project was done during AY23/24 Sem1 ZB4171 by Matthias Lim, Chuah Yu Song and Ong Min Xian under the guidance of Professor Greg Tucker-Kellogg.
